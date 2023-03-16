@@ -1,0 +1,16 @@
+Total = int()
+i=0
+while True:
+    num1 = int(input("Enter your number: "))
+    num2 = int(input("Enter your number: "))
+    Total = sum([Total,num1,num2])
+    Equal = input("Do you want to continue? (+/=): ")
+    if "=" in Equal:
+        break
+print(Total)
+
+Total = [Total,num1,num2] #I know it doesn't work! I tried though!
+i=0
+while i<len(Total):
+    print("Hamid Ghalandari")
+    i+=1
