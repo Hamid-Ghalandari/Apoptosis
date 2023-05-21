@@ -421,22 +421,22 @@
 # print(st1)
 # print(st1.BMI())
 
-class MyNumber:
-    def __init__(self, x, y) -> None:
-        self.x = x
-        self.y = y
-    def __iter__(self):
-        self.a = self.x
-        return self
-    def __next__(self):
-        if self.a < self.y:
-            n = self.a
-            self.a +=1
-            return n
-        else:
-            raise StopIteration
-for i in MyNumber(0,20):
-    print(i)
+# class MyNumber:
+#     def __init__(self, x, y) -> None:
+#         self.x = x
+#         self.y = y
+#     def __iter__(self):
+#         self.a = self.x
+#         return self
+#     def __next__(self):
+#         if self.a < self.y:
+#             n = self.a
+#             self.a +=1
+#             return n
+#         else:
+#             raise StopIteration
+# for i in MyNumber(0,20):
+#     print(i)
     
 
 
