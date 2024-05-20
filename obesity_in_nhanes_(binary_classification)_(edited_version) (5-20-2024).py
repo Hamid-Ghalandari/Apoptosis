@@ -26,7 +26,7 @@ display.Javascript("google.colab.output.setIframeHeight('100px');")
 # @title Loading the main dataset
 
 # %%capture
-
+import streamlit as st
 import pandas as pd
 import numpy as np
 crude_dataset = pd.read_excel('/content/drive/MyDrive/2017-prepand NHANES datasets/Relevant Dataset_New_1.xlsx')
