@@ -8,6 +8,7 @@ Original file is located at
 """
 
 # @title USDA API (first version)
+pip install prettytable
 
 import requests
 from prettytable import PrettyTable
