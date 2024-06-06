@@ -14,6 +14,15 @@ import requests
 import streamlit as st
 from prettytable import PrettyTable
 
+# @title requirements.txt
+
+# Open and read the file
+with open('/content/drive/MyDrive/requirements.txt', 'r') as file:
+    content = file.read()
+
+# Print the content of the file
+print(content)
+
 # Set up the API endpoints and your API key
 base_url = "https://api.nal.usda.gov/fdc/v1"
 api_key = "QeMl3zbVBqDHTwy9nsjhjfiehADeE1CAlNPRYPfF"
