@@ -9,7 +9,6 @@ Original file is located at
 
 # @title USDA API (first version)
 
-pip install prettytable streamlit
 
 import requests
 import streamlit as st
